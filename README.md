@@ -1,4 +1,4 @@
-# Repor for explore open source Contribution
+# repository for explore open source Contribution
 This repo created for mainly for Hacktomberfest2022 event by collecting university project by Computer Science undergraduates.
 
 ## Getting Started
