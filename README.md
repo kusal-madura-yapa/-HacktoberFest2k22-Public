@@ -1,4 +1,8 @@
-# repository for explore open source Contribution
+# Hacktoberfest 2022 `OPEN FIRST` Pull Request - `FREE T-SHIRT`🎉
+
+![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
+
+# Repository for explore open source Contribution
 This repo created for mainly for Hacktomberfest2022 event by collecting university project by Computer Science undergraduates.
 
 ## Getting Started
