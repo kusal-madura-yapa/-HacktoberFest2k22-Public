@@ -2,6 +2,8 @@
 class Node:
 	def __init__(self, ky1):
 		self.left = None
+
+		self.left = None
 		self.right = None
 		self.val = ky1
 def prntInumorder(rt):
