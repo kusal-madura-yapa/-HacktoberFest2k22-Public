@@ -1,4 +1,4 @@
-# a simple parser for python. use get_number() and get_word() to read
+#-----
 def parser():
     while 1:
         data = list(input().split(' '))
@@ -19,8 +19,7 @@ def get_number():
     except ValueError:
         return float(data)
 
-# numpy and scipy are available for use
-from xml.etree.ElementTree import QName
+
 
 from requests import get
 # import numpy
