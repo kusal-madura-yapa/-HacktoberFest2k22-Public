@@ -4,7 +4,7 @@ def parser():
         data = list(input().split(' '))
         for number in data:
             if len(number) > 0:
-                yield(number)   
+                # yield(num)
 
 input_parser = parser()
 
