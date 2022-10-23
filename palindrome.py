@@ -4,7 +4,7 @@ def parser():
         data = list(input().split(' '))
         for number in data:
             if len(number) > 0:
-                yield(number)
+                yield(number)   
 
 input_parser = parser()
 
@@ -26,21 +26,12 @@ from requests import get
 # import numpy
 # import scipy
 
+
 n = get_number()
-for _ in range(n):
-    cuts = set()
-    j = get_number()
-    if j == 0:
-        print(1)
-        continue
-    for _ in range(j):
-        i =  get_number()
-        if (i < 0):
-            i = i%360
+m = get_number()
 
-        d = i%180
-        cuts.add(d)
-    print(len(cuts)*2)
-
-        
-            
+res = 0
+# from numpy import power
+for i in range(2,n+1,2):
+    res += (pow(m, i//2))
+print(res)
