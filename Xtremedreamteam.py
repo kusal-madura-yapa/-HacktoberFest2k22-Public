@@ -13,10 +13,10 @@ def gt_wd():
 
 def get_num():
     data = gt_wd()
-    try:
-        return int(d)
-    except ValueError:
-        return float(d)
+    # try:
+    #     return int(d)
+    # except ValueError:
+    #     return float(d)
 
 import numpy
 import scipy
